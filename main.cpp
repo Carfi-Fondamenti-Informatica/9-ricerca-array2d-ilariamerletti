@@ -4,9 +4,17 @@ using namespace std;
 int main() {
     char mat[10][20];
     char nome[20];
+    cout << "inserire 10 nomi"<< endl;
     inserimento(mat);
+    cout << "inserire nome da cercare"<< endl;
     inserimento(nome);
     cout << endl;
-    cout<< confronto(mat,nome);
-    return 0;
-}
+    cout << "il nome si trova in posizione:  ";
+    if(confronto(mat,nome) == 0) {
+        cout << "non presente";
+    }
+        else{
+            cout << confronto(mat, nome);
+        }
+    }
+
