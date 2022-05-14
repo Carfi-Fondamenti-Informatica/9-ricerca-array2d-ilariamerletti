@@ -42,7 +42,6 @@ int confronto(char mat[10][20], char nome[20]){
         }
         i++;
     }
-    cout << "non presente";
     return 0;
 
 }
